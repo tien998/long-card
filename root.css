@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+}
+
+.navbar {
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.navbar .logo a {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar .toggle_btn {
+    color: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+.body {
+    margin-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.body h1,
+h2,
+h3 {
+    font-size: 1.25rem;
+    font-weight: 100;
+    padding-bottom: .75rem;
+    padding-left: 1.25rem;
+}
+
+.body p {
+    font-size: 1rem;
+    font-weight: 100;
+    padding-bottom: .75rem;
+}
+
+.body img {
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.img-box {
+    display: block;
+    width: 100%;
+    font-style: italic;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    * {
+        font-size: 15px;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+    }
+}
